@@ -18161,7 +18161,7 @@ ChemDoodle.RESIDUE = (function(undefined) {
 		}
 		if (this.title) {
 			offsetTop += specs.text_font_size;
-			ctx.fillText(this.title, width / 2, specs.text_font_size);
+			ctx.fillText(this.title, width / 2, specs.text_font_size+10);
 		}
 		// draw ticks
 		ctx.lineCap = 'square';
